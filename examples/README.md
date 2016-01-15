@@ -6,7 +6,7 @@ This directory contains many examples of different ways to use and embed Bokeh p
 
 NOTE: All of the links below are to the "master" branch of the repository, which always contains the newest and most updated code. For questions about specific versions of Bokeh, please take care to refer to the correct branch for your version!
 
-### [`app`](https://github.com/bokeh/bokeh/tree/master/examples/app)
+### [`app`](app/)
 
 This directory contains examples of Bokeh Apps, which are simple and easy to create web applications for data visualization or exploration.
 

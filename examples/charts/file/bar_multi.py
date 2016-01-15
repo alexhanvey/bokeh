@@ -46,10 +46,11 @@ bar_plot9.title_text_font_size = '10pt'
 
 output_file("bar_multi.html", title="bar_multi.py example")
 
-show(vplot(
-    hplot(bar_plot,  bar_plot2),
-    hplot(bar_plot3, bar_plot4),
-    hplot(bar_plot5, bar_plot6),
-    hplot(bar_plot7, bar_plot8),
-    hplot(bar_plot9)
-))
+#show(vplot(
+#    hplot(bar_plot,  bar_plot2),
+#    hplot(bar_plot3, bar_plot4),
+#    hplot(bar_plot5, bar_plot6),
+#    hplot(bar_plot7, bar_plot8),
+#    hplot(bar_plot9)
+#))
+show(vplot(hplot(bar_plot9, bar_plot8)))
